@@ -1,0 +1,7 @@
+## skydrome@i2pmail.org
+gpg --keyserver pgp.mit.edu --recv-keys 2C3985CD
+
+## pacman.conf
+[freenet]
+SigLevel = Required TrustAll
+Server = http://repo.freenetproject.org/$arch
